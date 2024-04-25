@@ -1,0 +1,28 @@
+@charset "UTF-8";
+.popup-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* 반투명한 배경 */
+  z-index: 1000;
+  /* 팝업이 화면 위로 올라오도록 설정 */
+  overflow: auto;
+  /* 팝업이 스크롤될 수 있도록 설정 */
+}
+
+.popup-content {
+  position: relative;
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  z-index: 1001;
+  /* 팝업 내용이 배경 위로 올라오도록 설정 */
+}
+/*# sourceMappingURL=style.css.map */

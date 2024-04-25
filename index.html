@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>헤더와 푸터 컴포넌트 예시</title>
+  </head>
+  <body>
+    <!-- header -->
+    <div id="header"></div>
+
+    <div class="popup-container" id="popup1">
+      <div class="popup-content">
+        <h2>첫 번째 팝업 내용</h2>
+        <p>첫 번째 팝업 내용을 입력하세요.</p>
+        <button class="close-btn" onclick="closePopup('popup1')">닫기</button>
+      </div>
+    </div>
+
+    <div class="popup-container" id="popup2">
+      <div class="popup-content">
+        <h2>두 번째 팝업 내용</h2>
+        <p>두 번째 팝업 내용을 입력하세요.</p>
+        <button class="close-btn" onclick="closePopup('popup2')">닫기</button>
+      </div>
+    </div>
+
+    <p>여기에는 웹 페이지의 일반 내용이 들어갑니다.</p>
+    <button onclick="openPopup('popup1')">첫 번째 팝업 열기</button>
+    <button onclick="openPopup('popup2')">두 번째 팝업 열기</button>
+
+    <!-- footer -->
+    <div id="footer"></div>
+  </body>
+</html>

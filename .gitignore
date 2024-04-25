@@ -1,0 +1,8 @@
+bin/
+tmp/
+*.txt
+*.json
+*.cmd
+app.js
+*.mjs
+/node_modules
